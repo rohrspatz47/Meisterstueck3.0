@@ -1,0 +1,137 @@
+.tablecontainer {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    grid-template-areas: 
+    "zeiten montag dienstag mittwoch donnerstag freitag"
+    ;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 17px;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+table th {
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+table td {
+    border: 1px solid black;
+}
+.titel {
+    background-image: linear-gradient(to right, #00ffff, #ffffff);
+}
+.uzeiten {
+    background-image: linear-gradient(to left, #00ffff, #ffffff);
+}
+.mathe {
+    background-image: linear-gradient(45deg, #000000, #0000ff);
+    color: #ffffff;
+}
+.physik {
+    background-image: linear-gradient(90deg, yellow, orange);
+}
+.geschichte {
+    background-image: linear-gradient(135deg, #2b2b2b, #969696);
+    color: #ffffff;
+}
+.sport {
+    background-image: linear-gradient(75deg, #cd96cd, #68228b);
+}
+.deutsch {
+    background-image: linear-gradient(135deg, #8b0000, #ff4500);
+    color: #ffffff;
+}
+.schulschluss {
+    background-image:
+    repeating-linear-gradient(45deg, 
+    white 0%, 
+    white 2%, rgb(220, 122, 220) 2%, 
+    rgb(219, 154, 219) 4%, white 4%);
+}
+.english {
+    background-image: linear-gradient(20deg, #d2691e, #8b4513);
+}
+.bikunst {
+    background-image: linear-gradient(112deg, #ff1493, #ffb6c1);
+}
+.biologie {
+    background-image: linear-gradient(to left, #006400, #32cd32);
+}
+.freistunde {
+        background-image:
+    repeating-linear-gradient(45deg, 
+    white 0%, 
+    white 2%, cyan 2%, 
+    cyan 4%, white 4%);
+}
+.musik {
+    background-image: linear-gradient(145deg, #ffc125, #8b6914);
+}
+.chemie {
+    background-image: linear-gradient(145deg, #F781BE, #809FF6);
+}
+
+
+
+/* 
+    "uztitel montitel dietitel mittitel dontitel fretitel"
+    "uz01 mon01 die01 mit01 don01 fre01"
+    "uz02 mon02 die02 mit02 don02 fre02"
+    "uz03 mon03 die03 mit03 don03 fre03"
+    "uz04 mon04 die04 mit04 don04 fre04"
+    "uz05 mon05 die05 mit05 don05 fre05"
+    "uz06 mon06 die06 mit06 don06 fre06"
+    ;
+    justify-content: center;
+}
+uztitel {
+    grid-area: uztitel;
+    width: 100%;
+    background-image: linear-gradient(#00ffff #ffffff);
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+}
+montitel {
+    grid-area: uztitel;
+    width: 100%;
+    background-image: linear-gradient(#00ffff #ffffff);
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+}
+dietitel {
+    grid-area: uztitel;
+    background-image: linear-gradient(#00ffff #ffffff);
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+}
+mittitel {
+    grid-area: uztitel;
+    background-image: linear-gradient(#00ffff #ffffff);
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+}
+dontitel {
+    grid-area: uztitel;
+    background-image: linear-gradient(#00ffff #ffffff);
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+}
+fretitel {
+    grid-area: uztitel;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+}
+.titel {
+    background-image: linear-gradient(#00ffff #ffffff);
+}
+*/

@@ -1,0 +1,124 @@
+body {
+    
+}
+header {
+    display: flex;
+    height: 15vh;
+    background-color: #ff0000;    
+}
+header div h2 {
+    text-align: center;
+}
+main {
+    display: flex;
+    min-height: 70vh;
+}
+main navigation {
+    display: block;
+    width: 13%;
+    background-color: #0000ff;
+    text-align: center;
+    border: solid;
+    font-size: 16px;
+}
+main navigation li:nth-child(odd) {
+    color: #ffffff;
+}
+main navigation li:nth-child(even) {
+    background-color: #ffff00;
+    color: #000000;
+}
+main hauptanzeige {
+    width: 87%;
+    background-color: #ffff00;
+    text-align: center;
+    border: solid;
+    padding: 10px;
+    justify-content: center;
+}
+main hauptanzeige table, th, td {
+    border: 1px solid;
+    width: 15%;
+}
+main hauptanzeige table {
+    width: 90%;
+}
+footer {
+    min-height: 15vh;
+    background-color: #00ff00;
+    border: solid;
+}
+.profil {
+    display: flex;
+    width: 25%;
+    border: solid;
+    padding: 0.4vh;
+}   
+.ueberschrift {
+    width: 45%;
+    text-align: center;
+    font-size: 18px;
+    border: solid;
+}
+.obenbuttons {
+    width: 30%;
+    border: solid;
+    padding: 0.4vh;
+    text-align: right;
+}
+.rechtsbild:hover {
+    background-color: #0000ff;
+}
+.navlink {
+
+}
+::hover {
+
+}
+.navlink:hover {
+    background-color: #ff0000;
+    color: #ffff00;
+}
+.navlink:nth-child(2) {
+    background-color: #ffff00;
+}
+.rundbild {
+    height: 13vh;
+    border: solid;
+    border-radius: 50%;
+}
+.rundbild:hover {
+    height: 15vh;
+    border: solid;
+    border-radius: 50%;
+}
+.rechtsbild {
+    height: 6vh;
+}
+.rechtsbild:nth-child(2) {
+    background-color: #ffff00;
+}
+::nth-child(2) {
+
+}
+.kopfzeile {
+
+}
+.daten {
+    font-size: 14px;
+}
+.freistunde { background-image:
+    repeating-linear-gradient(45deg, 
+                             white 0%, 
+                             white 2%, cyan 2%, 
+                             cyan 4%, white 4%);
+}
+.schulschluss { background-image:
+    repeating-linear-gradient(45deg, 
+                             white 0%, 
+                             white 2%, rgb(220, 122, 220) 2%, 
+                             rgb(219, 154, 219) 4%, white 4%);
+}
+.zentrieren {
+    justify-content: center;
+}

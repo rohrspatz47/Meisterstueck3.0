@@ -1,0 +1,200 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 1fr 13%;
+    grid-template-columns: 20% 10% 20% 20% 10% 20%;
+    grid-template-areas:
+    "headerlinks headerlinks headermitte headermitte headerrechts headerrechts"
+    "navi inhalt inhalt inhalt inhalt inhalt"
+    "footer footer footer footer footer footer"
+    ;
+    justify-content: center;
+}
+headerlinks {
+    grid-area: headerlinks;
+    background-image: linear-gradient(135deg, #ff0000, #000000);
+    padding: 5px;
+    text-align: left;
+    font-size: large;
+    color: #ffffff;
+}
+headerlinks a {
+    text-decoration: none;
+    color: #ffffff;
+}
+headermitte {
+    grid-area: headermitte;
+    background-image: linear-gradient(135deg, #00ff00, #006400);
+    padding: 5px;
+    text-align: center;
+}
+headerrechts {
+    grid-area: headerrechts;
+    background-image: linear-gradient(135deg, #0000ff, #000000);
+    padding: 5px;  
+    text-align: right;  
+    color: #ffffff;
+}
+headerrechts a {
+    text-decoration: none;
+}
+headerrechts a:hover {
+    text-decoration: none;
+}
+headerrechts a:visited {
+    text-decoration: none;
+}
+headerrechts a:active {
+    text-decoration: none;
+}
+navi {
+    grid-area: navi;
+    background-color: #00ffff;
+    padding: 5px;
+    text-align: center;
+}
+navi a {
+    text-decoration: none;
+}
+navi a:hover {
+    text-decoration: none;
+}
+navi a:visited {
+    text-decoration: none;
+}
+navi a:active {
+    text-decoration: none;
+}
+hauptinhalt {
+    grid-area: inhalt;
+    background-image: linear-gradient(135deg, #ffff00, #000000);
+    padding: 5px;
+    text-align: center;
+}
+hauptinhalt fieldset {
+    height: 95%;
+}
+hauptinhalt iframe {
+    border: 1px solid #000000;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    grid-area: footer;
+    background-image: linear-gradient(135deg, #000000, #ff00ff);
+    padding: 5px;
+    text-align: center;
+}
+.navbutton {
+    min-height: 35px;
+    width: 95%;
+    border-radius: 5px 20px 20px 20px;
+    background-image: linear-gradient(to right, red, orange, yellow, #7cfc00, violet, indigo, blue);
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    padding: 2px;
+    margin: 10px;
+    text-decoration: none;
+}
+.navbutton:hover {
+    color: #FFB90F;
+    text-decoration: none;
+    font-size: 27px;    
+    background-image: linear-gradient(to right, #000000, #ff0000);
+}
+.rechtsbild {
+    height: 6vh;
+}
+.rechtsbild:hover {
+    background-image: linear-gradient(to right, #00ffff, #ffffff);
+}
+.rechtsbildsearch {
+    height: 6vh;
+    width: fit-content;
+}
+.rechtsbildsearch:hover {
+    background-image: linear-gradient(to left, #68228B, #e066FF);
+}
+.rechtsbildmessage {
+    height: 6vh;
+}
+.rechtsbildmessage:hover {
+    background-image: linear-gradient(to left, #d2691e, #8b4513);
+}
+.rechtsbildtag {
+    height: 6vh;
+}
+.rechtsbildtag:hover {
+    background-image: linear-gradient(to right, #ffff00, #00ffff);
+}
+.rechtsbildnacht {
+    height: 6vh;
+}
+.rechtsbildnacht:hover {
+    background-image: linear-gradient(to right, #0000ff, #00ffff);
+}
+.rechtsbildlogout {
+    height: 6vh;
+}
+.rechtsbildlogout:hover {
+    background-image: linear-gradient(to right, #7AC5CD, #FF4500);
+}
+.rahmen {
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-color: #ffffff;
+}
+.rundbild {
+    height: 6vh;
+    border: solid;
+    border-radius: 50%;
+}
+.rundbild:hover {
+    height: 6.4vh;
+}
+.mittelbild {
+    max-height: 7.5vh;
+    animation: fadein;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein {
+    from {
+        margin-left: 100%;
+      }
+      to {
+        margin-left: 0%;
+      }
+}
+.footbutton {
+    min-height: 15px;
+    width: 24%;
+    border-radius: 5px 20px 20px 20px;
+    background-image: linear-gradient(to right, #D8D9D9, #A4A5A5, #6E6E6E);
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    padding: 1px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;   
+}
+.footbutton:hover {
+    background-image: linear-gradient(to left, #1D1D1C, #000000);
+    color: #ffffff;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: none;
+}
+footer a:visited {
+    text-decoration: none;
+}
+footer a:active {
+    text-decoration: none;
+}
