@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(to left, #ffb6c1, #778899);
+}
+.baustellenprofil {
+    height: 240px;
+    border: 3px solid #ff0000;
+    border-radius: 50%;
+}
