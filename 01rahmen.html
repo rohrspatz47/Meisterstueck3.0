@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moderne Schule 3.0</title>
     <link rel="stylesheet" href="./Style/style-light.css">
+    <link rel="alternate stylesheet" href="./Style/style-dark.css">
+    <script src="./Logic/stylewchsel.js">
+    </script>
 </head>
 <body>
     <div class="container">
@@ -13,10 +16,16 @@
                 <legend>
                     Profilkram
                 </legend>
-                <a href="profilverwaltung.html" target="inhaltsframe">    
+                <a href="profilverwaltung.html" target="inhaltsframe" title="Profilverwaltung">    
                     <img src="./Assets/profilbild.jpg" class="rundbild">   
-                        Nutzername
-                    </a>
+                    Nutzername
+                </a>
+                <button data-stylesheet="./Style/style-light.css">
+                    tag
+                </button>
+                <button data-stylesheet="./Style/style-dark.css">
+                    nacht
+                </button>
             </fieldset>
         </headerlinks>
         <headermitte>
@@ -34,22 +43,22 @@
                 </legend>
                 <div class="obenbuttons">
                     <a href="./01rahmen.html">
-                        <img src="./Assets/home.png" class="rechtsbild">
+                        <img src="./Assets/home.png" class="rechtsbild" title="Home">
                     </a>
                     <a href="suche.html" target="inhaltsframe">
-                        <img src="./Assets/search.png" class="rechtsbildsearch">
+                        <img src="./Assets/search.png" class="rechtsbildsearch" title="Suche">
                     </a>
                     <a href="nachrichten.html" target="inhaltsframe">
-                        <img src="./Assets/newmessage.png" class="rechtsbildmessage">
+                        <img src="./Assets/newmessage.png" class="rechtsbildmessage" title="Nachrichten">
                     </a>
-                    <a href="javascript:aenderung('stylesheet')">
-                        <img src="./Assets/modelight.png" class="rechtsbildtag">
+                    <a href="javascript:aenderung('stylesheet')" data-stylesheet="./Style/style-dark.css">
+                        <img src="./Assets/modelight.png" class="rechtsbildtag" title="Lightmode">
                     </a>
-                    <a href="">
-                        <img src="./Assets/modedark.png" class="rechtsbildnacht">
+                    <a href="./Logic/stylewchsel.js" data-stylesheet="./Style/style-dark">
+                        <img src="./Assets/modedark.png" class="rechtsbildnacht" title="Darkmode">
                     </a>
                     <a href="index.html">    
-                        <img src="./Assets/logout.png" class="rechtsbildlogout">
+                        <img src="./Assets/logout.png" class="rechtsbildlogout" title="Logout">
                     </a>
                 </div>
             </fieldset>
